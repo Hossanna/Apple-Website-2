@@ -1,0 +1,604 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+.flex-links{
+    padding-top: 2%;
+}
+.margin-left{
+    margin-left: 15px;
+}
+
+.nav-icon{
+    height: 20px;
+    width: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-icon img{
+    width: 60%;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-nav{
+    width: 100%;
+    height: 100px;
+    background-color: #e8e7eb47;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-nav li{
+    width: 10%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-nav img{
+    width: 100%;
+    height: 50px;
+}
+
+.new{
+    color: #d96500 !important;
+}
+
+.links {
+    color: blue;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+aside{
+    background-color: #f2f2f2;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside{
+    padding: 5%;
+}
+
+.section1{
+    height: 500px;
+    background-image: url(./images/ipad_mini.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-color: #fff;
+    padding: 5% 10%;
+    margin: 10% 0 0 ;
+    
+}
+button{
+    padding: 4% 6%;
+    color: #fff;
+    background-color: blue;
+    margin-bottom: 5%;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+.div1{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto 5% auto 15%;
+}
+
+.div2{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto 5% auto 35%;
+}
+
+h1{
+    font-size: 3em;
+}
+.div1 .money, .div2 .money{
+    margin: 5% 0;
+}
+.div1 span{
+    font-family: cursive;
+}
+
+.section2{
+    height: 600px;
+    background-image: url(./images/ipad_10.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-color: #fff;
+    padding: 5% 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* margin: 10% 0 0 ; */
+}
+
+.section3{
+    height: 500px;
+    background-image: url(./images/ipad_air.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-color: #fff;
+    padding: 5% 10%;
+    margin: 5% 0 ;
+    align-items: center;
+    display: flex;
+}
+
+.section4{
+    height: 500px;
+    background-image: url(./images/ipad_pro_hero.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-color: #fff;
+    padding: 5% 10%;
+    margin: 5% 0  ;
+   
+}
+
+.section5{
+    height: fit-content;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.section5-div{
+    background-color: #fff;
+    height: 100%;
+    padding: 5%;
+    margin: 0 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.div3{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2% auto;
+    align-items: baseline;
+}
+.div3 div{
+    text-align: center;
+    border-bottom: 2px solid #80808030;
+    padding: 2% 0;
+    width: 20%;
+}
+.div3 img{
+    margin-bottom: 15%;
+}
+.div3 p, .div3 h4{
+    margin: 5% 0;
+}
+
+.section5-grid{
+    display: grid;
+    width: 80%;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 4%;
+}
+
+.section5-grid div{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section5-grid p{
+    margin-top: 5%;
+}
+
+.bottom-border{
+    border-bottom: 2px solid #80808047;
+    height: 170px !important;
+    padding: 30px 0 70px;
+}
+
+
+.section6, .section8, .section9, .section10 {
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 0 2%;
+    /* margin: 0 auto; */
+
+}
+.section6-div{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.section6-small-div{
+    height: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 5% 0% 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.section6-small-div .img1{
+    width: 95%;
+    height: 400px;
+}
+
+.section6-small-div .img2{
+    width: 60%;
+    height: 450px;
+}
+.section6 .money{
+    margin: 2% 0;
+}
+
+.one{
+    background-image: url(./images/apple_card.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.two{
+    background-image: url(./images/trade_in.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.section7{
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 0% 10%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: grey;
+}
+
+.section7-div{
+    height: 350px;
+    align-items: center;
+    text-align: center;
+    padding: 5% 0;
+    justify-content: space-between;
+}
+
+.section7-div div{
+    width: 30%;
+}
+.section7-div img{
+    width: 25%;
+    height: 100px;
+}
+.section7-div h3{
+    margin: 5% 0;
+    color: #00000099;
+}
+.section7-div p{
+    margin-bottom: 5%;
+}
+
+.section8-div{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.section9-div{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.section9-div .item1, .section9-div .item2{
+    grid-column: 1 / span 2;
+}
+
+.grid-items{
+    background-color: #fff;
+    height: 600px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 3px 0px #8080805c;
+}
+
+.section8-small-div{
+    width: 100%;
+    padding: 15% 0% 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.down{
+    padding: 55% 0% 5%;
+
+}
+
+
+.section8-div .item1{
+    background-image: url(./images/apple_pencil.jpg);
+    background-position: bottom;
+}
+.section8-div .item2{
+    background-image: url(./images/smart_keyboard_folio.jpg);
+    background-position: top;
+}
+.section8-div .item3{
+    background-image: url(./images/accessories.jpg);
+    background-position: bottom;
+}
+.section8-div .item4{
+    background-image: url(./images/airpods.jpg);
+    background-position: 50% 90%;
+}
+.section9-div .item1{
+    background-image: url(./images/why_ipad.jpg);
+    background-position: 25% bottom;
+}
+.section9-div .item2{
+    background-image: url(./images/fitness.jpg);
+    background-position: 50% 90%;
+}
+.section9-div .item3{
+    background-image: url(./images/icloud.jpg);
+    background-position: 50% 90%;
+}
+.section9-div .item4{
+    background-image: url(./images/apple_pay.jpg);
+    background-position: 50% 90%;
+}
+
+.section9-small-div{
+    width: 100%;
+    padding: 15% 0% 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.section9-big-div{
+    width: 100%;
+    padding: 5% 0% 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.section9-side-div{
+    width: 100%;
+    padding: 17% 5% 0 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.section8 .money, .section9 .money, .money-10{
+    margin: 2% 0 0;
+}
+.moneyy{
+    margin: 1% 0 0;
+}
+
+
+.section10-div{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.section10-div .item1, .section10-div .item2{
+    grid-column: 1 / span 2;
+}
+
+.section10-div .item1{
+    background-image: url(./images/taa_virtual_sessions.jpg);
+    background-position: right;
+}
+.section10-div .item2{
+    background-image: url(./images/bundle.jpg);
+    background-position: 25%;
+}
+.section10-div .item3{
+    background-image: url(./images/apple_music.jpg);
+    background-position: bottom;
+}
+.section10-div .item4{
+    background-image: url(./images/apple_music.jpg);
+    background-position: bottom;
+}
+.section10-div .item5{
+    background-image: url(./images/fitness.jpg);
+    background-position: bottom;
+}
+.section10-div .item6{
+    background-image: url(./images/apple_arcade.jpg);
+    background-position: bottom;
+}
+.section10-div .item7{
+    background-image: url(./images/apple_news_plus.jpg);
+    background-position: bottom;
+    background-size: cover;
+
+}
+.section10-div .item8{
+    background-image: url(./images/gift-card.jpg);
+    background-position: bottom;
+}
+.section10-div .item9{
+    background-image: url(./images/ipad_for_education.jpg);
+    background-position: bottom;
+    background-size: cover;
+
+}
+.section10-div .item10{
+    background-image: url(./images/ipad_for_work.jpg);
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+.section10-small-div{
+    width: 100%;
+    padding: 10% 0% 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.left{
+    padding: 15% 60% 0 5%;
+
+}
+.right{
+    padding: 15% 5% 0 50%;
+
+}
+.white{
+    color: #fff ;
+    padding: 7% 0% 0;
+
+}
+.white a{
+    color: #fff;
+}
+
+.section10-small-div img{
+    width: 20%;
+    margin-bottom: 3%;
+}
+.smaller{
+    width: 18% !important;
+}
+.bigger{
+    width: 25% !important;
+}
+#tv-logo{
+    width: 12% ;
+    height: 80px;
+    margin-top: -7%;
+    margin-bottom: 2%;
+
+}
+
+.pink{
+    color: #f39aaa;
+
+}
+.purple{
+    color: #c091c0f2;
+
+}
+.blue{
+    color: #8585d4;
+
+}
+
+
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 0% 10%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: grey;
+} 
+
+.footer-list{
+    width: 100%;
+    margin: 2% 0;
+    justify-content: space-between;
+}
+
+.bold {
+    font-weight: 900;
+    color: #00000099;
+}
+
+.long-text{
+    border-bottom: 1px solid gray;
+    padding: 4% 0;
+    line-height: 1.5;
+    margin-bottom: 2%;
+}
+
+.all-accessories{
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+.all-accessories li{
+    line-height: 2;
+}
+.all-accessories p{
+    font-weight: 500;
+    font-size: 1.1em;
+    color: grey;
+}
+.apple{
+    width: 3%;
+    height: 28px;
+    margin-bottom: -0.8%;
+}
+
+.col2{
+    margin-top: 7%;
+}

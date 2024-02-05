@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.nav-icon{
+    height: 20px;
+    width: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-icon img{
+    width: 60%;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-nav{
+    width: 100%;
+    height: 120px;
+    padding: 0 10%;
+    background-color: #f2f2f2;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-nav li{
+    width: 15%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.second-nav img{
+    width: 40%;
+    height: 50px;
+    margin-bottom: 5%;
+}
+
+.new{
+    color: #d96500 !important;
+}
+
+.links {
+    color: blue !important;
+    text-decoration: none;
+    margin-top: 2%;
+}
+.middle-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0;
+    text-decoration: none;
+    margin-top: 2%;
+    color: grey ;
+}
+
+aside{
+    background-color: #e8e7eb;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1{
+    height: 300px;
+    background-image: url(./images/hero_tv.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-color: #f2f2f2;
+    padding: 10%;
+    
+}
+
+.section2{
+    height: 600px;
+    background-image: url(./images/hero_homepod_appletv_lockup.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: 25%; */
+    background-color: #f2f2f2;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section2 h1{
+    font-size: 4em;
+    margin-top: 15%;
+}
+.section2 p{
+    width: 75%;
+    margin: auto;
+    color: grey ;
+    font-size: 1.1em;
+    line-height: 1.2;
+}
+
+.section3{
+    padding: 2%;
+    background-color: #f2f2f2;
+
+}
+
+.grid-container{
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #f2f2f2;
+}
+
+.grid-items{
+    border-radius: 10px;
+    background-color: #fff;
+    /* height: 700px;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-textarea{
+    height: 35%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5%;
+}
+.grid-textarea h1{
+    font-size: 2em;
+    margin: 5% 0;
+}
+
+.grid-textarea div{
+    margin: 5% 0;
+    width: 100%;
+}
+
+.grid-textarea button{
+    padding: 4% 6%;
+    color: #fff;
+    background-color: blue;
+    margin-right: 10%;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+#home-icon{
+    width: 20%;
+    margin-bottom: 5%;
+}
+
+.grid-items img{
+    width: 100%;
+    height: 60%;
+}
+
+.grid-item3 img{
+    width: 50%;
+    height: 100%;
+}
+
+.grid-item3{
+    grid-column: 1 / span 2;
+    padding: 10% 0 0;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.section4, .section6, .section8{
+    height: 250px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section4 h1, .section6 h1, .section8 h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+.section5, .section7{
+    height: 500px;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section5 .div, .section7 .div{
+    width: 30%;
+    height: 500px;
+    background-color: #fff;
+    padding: 2% 5%;
+    margin: 2%;
+    border-radius: 20px;
+}
+
+.description{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section5 h3, .section7 h3, .section7 p{
+    margin-bottom: 5%;
+}
+.section5 img, .section7 img{
+    height: 60%;
+    width: 100%;
+    margin: auto;
+}
+
+.section9{
+    background-color: #f2f2f2;
+    padding: 2% 10%;
+}
+.section9 video{
+    width: -webkit-fill-available;
+}
+
+.section10{
+    background-color: #f2f2f2;
+    padding: 0 15%;
+    height: 250px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.four-divs{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.four-divs p{
+    margin: 10% 0;
+
+}
+
+.four-divs img{
+    width: 60%;
+}
+#tv-logo{
+    width:  40%;
+    margin-top: -20%;
+    margin-bottom: -7%;
+}
+
+#fitness-logo{
+    width: 75%;
+}
+
+.four-divs button{
+    padding: 4% 6%;
+    color: #fff;
+    background-color: blue;
+    margin-bottom: 5%;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+.h1{
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    margin-top: 15%;
+}
+.orange{
+    color: #ff5200;
+    letter-spacing: 5px;
+
+}
+.pink{
+    color: #f39aaa;
+    letter-spacing: 5px;
+
+}
+.purple{
+    color: #c091c0f2;
+    letter-spacing: 5px;
+
+}
+.blue{
+    color: #8585d4;
+    letter-spacing: 5px;
+
+}
+span{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 0% 10%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: grey;
+}
+.footer{
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    margin: 2% 0;
+    justify-content: space-between;
+}
+
+.footer-div{
+    width: 30%;
+}
+.footer-div img{
+    width: 25%;
+    height: 100px;
+}
+.footer-div h3{
+    margin: 5% 0;
+    color: #00000099;
+}
+.footer-div p{
+    margin-bottom: 5%;
+}
+
+.footer-list{
+    width: 100%;
+    margin: 2% 0;
+    justify-content: space-between;
+}
+
+.bold {
+    font-weight: 900;
+    color: #00000099;
+}
+
+.long-text{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 2% 0;
+    line-height: 1.5;
+    margin-bottom: 2%;
+}
+
+.all-accessories{
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+.all-accessories li{
+    line-height: 2;
+}
+.all-accessories p{
+    font-weight: 500;
+    font-size: 1.1em;
+    color: grey;
+}
+.apple{
+    width: 3%;
+    height: 28px;
+    margin-bottom: -0.8%;
+}
+
+.col2{
+    margin-top: 7%;
+}

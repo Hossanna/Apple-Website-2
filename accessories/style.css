@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.nav-icon{
+    height: 20px;
+    width: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-icon img{
+    width: 60%;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1{
+    height: 500px;
+    background-color: #f2f2f2;
+    background-image: url(./images/airpods-header.jpg);
+    background-position: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 15%;
+}
+.new{
+    color: #d96500 !important;
+}
+.section1 h1{
+    font-size: 2.5em;
+}
+.section1 p{
+    font-size: 1.2em;
+    color: rgb(95 94 94);
+    margin: 2% 0;
+}
+.links {
+    color: blue;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+.section2{
+    width: 40%;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section2 input{
+    width: 70%;
+    margin: 5% auto 0;
+    line-height: 2;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 1% 2%;
+}
+
+.section3{
+    width: 75%;
+    margin: 0 auto 3%;
+    color: gray;
+}
+
+.browse{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.browse span{
+    padding: 0 1% 2%;
+
+}
+.browse .span1{
+    border-bottom: 2px solid #06060673;
+}
+
+.section3-div{
+    border-top: 2px solid #a69b9b85;
+    padding: 5% 0;
+    justify-content: space-between ;
+}
+
+.section3 img{
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 20%;
+    margin-left: 7%;
+}
+
+.logos p{
+    text-align: center;
+    padding: 10% 0;
+}
+
+.categories{
+    color: blue;
+    text-align: center;
+}
+.plus{
+    border: 1px solid blue;
+    border-radius: 50%;
+    padding: 1px 5px;
+}
+
+.section4 h1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.grid-container{
+    display: grid;
+    gap: 8px;
+    width: 75%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+.grid-items{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    height: 570px;
+    padding: 20% 5%;
+}
+.grid-item2{
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    padding: 0 5%;
+
+}
+
+.section4 img{
+    width: 100%;
+}
+
+.description{
+    width: 75%;
+    margin: 2% auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-item2 h4{
+    margin: 0% auto;
+    
+}
+.grid-item2 .price{
+    margin: 5% auto !important;
+    
+}
+.section4 h4, .section6 h4{
+    margin: 4% auto;
+
+}
+.section4 .price, .section6 .price{
+    margin: 10% auto;
+    color: grey;
+}
+.middle-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+.section5{
+    width: 75%;
+    margin: auto auto 5%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    justify-content: center;
+    background-color: #f9f1f9;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(./images/apple-valentines-day-accessories.png);
+}
+.section5 h1{
+    color: purple;
+    font-size: 2.5em;
+}
+.section5 p{
+    margin: 2% 0;
+}
+
+.section6{
+    width: 75%;
+    margin: auto;
+}
+.section6 .flex{
+    justify-content: space-between;
+
+}
+
+.section6-div{
+    height: 570px;
+    margin: 0 4px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    width: 33%;
+    padding: 10% 5%;
+}
+
+.section6 img{
+    width: 100%;
+}
+
+.section7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 75%;
+    margin: 3% auto;
+    padding: 2% 0;
+    background-color: #f2f2f2;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-image: url(./images/homepod-mini-accessories.jpg);
+}
+
+.section7 h1{
+    font-size: 2.5em;
+    padding: 2%;
+}
+
+.section7 p{
+    color: gray;
+    padding-top: 2px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 0% 10%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: grey;
+}
+
+.footer{
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    margin: 2% 0;
+    justify-content: space-between;
+}
+
+.footer-div{
+    width: 30%;
+}
+.footer-div img{
+    width: 30%;
+    height: 100px;
+}
+.footer-div h3{
+    margin: 5% 0;
+    color: #00000099;
+}
+.footer-div p{
+    margin-bottom: 5%;
+}
+
+.footer-list{
+    width: 100%;
+    margin: 2% 0;
+    justify-content: space-between;
+}
+
+.bold {
+    font-weight: 900;
+    color: #00000099;
+}
+
+.long-text{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 2% 0;
+    line-height: 1.5;
+    margin-bottom: 2%;
+}
+
+.all-accessories{
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+.all-accessories li{
+    line-height: 2;
+}
+.all-accessories p{
+    font-weight: 500;
+    font-size: 1.1em;
+    color: grey;
+}
+.apple{
+    width: 3%;
+    height: 28px;
+    margin-bottom: -0.8%;
+}
+
+.col2{
+    margin-top: 7%;
+}
